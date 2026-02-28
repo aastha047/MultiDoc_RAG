@@ -11,26 +11,43 @@ This project enables users to upload multiple PDF documents (e.g., resumes) and 
 
 🚀 Features
 📄 Multi-PDF ingestion
+
 ✂️ Smart chunking with overlap
+
 🔢 Embedding generation using all-MiniLM-L6-v2
+
 🗄 Persistent vector database (Chroma)
+
 🔍 MMR-based retrieval for diversity
+
 🤖 Local LLM (Llama3 via Ollama)
+
 🛡 Strict anti-hallucination prompt design
+
 💬 Interactive CLI chat interface
 
 Architecture
 
 User Question
+
       ↓
+
 Retriever (MMR Search, k=8)
+
       ↓
+
 Top Relevant Chunks from Chroma
+      
       ↓
+
 Prompt Template (Context-Grounded)
+      
       ↓
+
 Llama3 (Ollama - Local)
+      
       ↓
+
 Final Answer
 
 🧠 How It Works (Step-by-Step)
