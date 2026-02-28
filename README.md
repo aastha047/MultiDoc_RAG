@@ -26,25 +26,6 @@ This project enables users to upload multiple PDF documents (e.g., resumes) and 
 
 💬 Interactive CLI chat interface
 
-Architecture
-
-User Question
-      ↓
-
-Retriever (MMR Search)
-      ↓
-
-Top Relevant Chunks from Chroma 
-      ↓
-
-Prompt Template (Context-Grounded) 
-      ↓
-
-Llama3 (Ollama - Local)      
-      ↓
-
-Final Answer
-
 🧠 How It Works (Step-by-Step)
 Step 1: Document Loading
 Loads all .pdf files from the data/ folder.
