@@ -29,23 +29,18 @@ This project enables users to upload multiple PDF documents (e.g., resumes) and 
 Architecture
 
 User Question
-
       ↓
 
-Retriever (MMR Search, k=8)
-
+Retriever (MMR Search)
       ↓
 
-Top Relevant Chunks from Chroma
-      
+Top Relevant Chunks from Chroma 
       ↓
 
-Prompt Template (Context-Grounded)
-      
+Prompt Template (Context-Grounded) 
       ↓
 
-Llama3 (Ollama - Local)
-      
+Llama3 (Ollama - Local)      
       ↓
 
 Final Answer
