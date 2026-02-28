@@ -219,3 +219,7 @@ chroma_db/
 # HuggingFace model cache (optional safety)
 .cache/
 *.safetensors
+venv/
+data/
+chroma_db/
+
