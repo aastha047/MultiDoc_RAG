@@ -27,6 +27,7 @@ This project enables users to upload multiple PDF documents (e.g., resumes) and 
 💬 Interactive CLI chat interface
 
 🧠 How It Works (Step-by-Step)
+
 Step 1: Document Loading
 Loads all .pdf files from the data/ folder.
 Uses PyPDFLoader to extract structured content.
