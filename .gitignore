@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Project Specific Ignores
+# =========================
+
+# Local PDF data files
+data/
+
+# Chroma vector database
+chroma_db/
+
+# HuggingFace model cache (optional safety)
+.cache/
+*.safetensors
