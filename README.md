@@ -2,10 +2,13 @@
 
 A fully local Multi-Document Retrieval-Augmented Generation (RAG) system built using:
 
-LangChain
-Chroma Vector Database
-HuggingFace Embeddings
-Ollama (Llama 3 – Local LLM)
+- LangChain
+
+- Chroma Vector Database
+  
+- HuggingFace Embeddings
+
+- Ollama (Llama 3 – Local LLM)
 
 This project enables users to upload multiple PDF documents (e.g., resumes) and ask grounded questions across them - including comparisons - without hallucination.
 
